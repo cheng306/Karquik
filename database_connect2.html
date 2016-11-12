@@ -1,0 +1,11 @@
+<?php
+$dbservername = "comp380gp4.cztejaciasub.us-west-2.rds.amazonaws.com";
+$dbusername = "comp380";
+$dbpassword = "comp380gp4";
+$dbname = "comp380gp4";
+
+$conn2 = new mysqli($dbservername, $dbusername, $dbpassword, $dbname);
+if ($conn2->connect_error) {
+	die("Connection failed: " . $conn2->connect_error);
+} 
+?>

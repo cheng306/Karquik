@@ -1,0 +1,57 @@
+body {
+	background-color:#f2f2f2;
+}
+
+h2 {
+	margin-left:50px;
+}
+
+ol li{
+	margin-left:50px;
+}
+
+a {
+	text-decoration:none;
+}
+
+input.finish {
+	margin-left: 100px
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li.menu {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    text-align: right;
+	padding: 4px;
+}
+.right {
+    width: 65%;
+    margin-left: 10px;
+    float:left;
+	padding: 4px
+}
